@@ -16,7 +16,6 @@ if st.button("Generate Answer"):
                 st.success("Answer Generated")
                 st.write(answer)
         except Exception as e:
-                st.error("Something went wrong. Please check the video ID.")
-      
+            st.error(f"Error: {str(e)}")
     else:
         st.warning("Please enter both fields.")
