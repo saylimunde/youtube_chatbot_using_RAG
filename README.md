@@ -196,6 +196,11 @@ This RAG system:
 > 🔎 Business Use Case:
 > This system can be used for internal document search, HR policy bots, legal document assistants, and customer support automation.
 
+## 🌍 Live Application
+
+🚀 Click here to try the app:  
+👉 [AskWithContext – YouTube RAG Chatbot](https://askwithcontext.streamlit.app)
+
 ## ▶️ How to Run Locally
 
 ``` bash
@@ -204,7 +209,6 @@ cd your-repo-name
 pip install -r requirements.txt
 streamlit run app.py
 
-🔗 **Live Demo:** [AskWithContext App](https://askwithcontext.streamlit.app)
 
 
 
