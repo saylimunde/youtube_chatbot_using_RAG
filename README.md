@@ -207,6 +207,10 @@ GROQ_API_KEY=your_api_key_here
 🚀 Click here to try the app:  
 👉 [AskWithContext – YouTube RAG Chatbot](https://askwithcontext.streamlit.app)
 
+## Demo
+
+![App Demo](assets/demo.png)
+
 ## ▶️ How to Run Locally
 
 ``` bash
@@ -214,6 +218,7 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
 streamlit run app.py
+
 
 
 
