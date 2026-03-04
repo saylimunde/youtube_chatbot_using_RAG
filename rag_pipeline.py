@@ -5,8 +5,16 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
+import streamlit as st
+from groq import Groq
 
 load_dotenv()
+
+model = ChatGroq(
+    model="llama-3.1-8b-instant",
+    temperature=0.2,
+    api_key=os.getenv("GROQ_API_KEY")
+)
 
 
 def get_transcript_text(video_id):
