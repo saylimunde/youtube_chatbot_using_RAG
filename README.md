@@ -196,6 +196,12 @@ This RAG system:
 > 🔎 Business Use Case:
 > This system can be used for internal document search, HR policy bots, legal document assistants, and customer support automation.
 
+## 🔑 Environment Setup
+
+Create a `.env` file and add: 
+GROQ_API_KEY=your_api_key_here
+
+
 ## 🌍 Live Application
 
 🚀 Click here to try the app:  
@@ -208,6 +214,7 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
 streamlit run app.py
+
 
 
 
