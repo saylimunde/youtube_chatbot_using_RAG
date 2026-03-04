@@ -211,6 +211,8 @@ GROQ_API_KEY=your_api_key_here
 
 ## Demo
 
+/assets/demo.png
+
 ![App Demo](assets/demo.png)
 
 ## ▶️ How to Run Locally
@@ -220,6 +222,7 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 pip install -r requirements.txt
 streamlit run app.py
+
 
 
 
